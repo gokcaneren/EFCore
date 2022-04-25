@@ -54,3 +54,10 @@ C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseF
 C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\obj\Debug\net6.0\EFCoreDatabaseFirst.pdb
 C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\obj\Debug\net6.0\EFCoreDatabaseFirst.genruntimeconfig.cache
 C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\obj\Debug\net6.0\ref\EFCoreDatabaseFirst.dll
+C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\bin\Debug\net6.0\appsettings.json
+C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Gok\Desktop\c# console proje\EFCore\EFCoreDatabaseFirst\EFCoreDatabaseFirst\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
