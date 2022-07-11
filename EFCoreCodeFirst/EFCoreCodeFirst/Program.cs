@@ -8,31 +8,17 @@ Initializer.Build();
 
 using (var _context=new AppDbContext())
 {
-    _context.Products.Add(new Product
-    {
-        Name = "Kalem 1",
-        Stock = 23,
-        Price = 30000,
-        Barcode = 2222
-    });
-    _context.Products.Add(new Product
-    {
-        Name = "Kalem 2",
-        Stock = 23,
-        Price = 30000,
-        Barcode = 22221232
-    });
-    _context.Products.Add(new Product
-    {
-        Name = "Kalem 3",
-        Stock = 23,
-        Price = 30000,
-        Barcode = 2224122
-    });
+    //var p3 = await _context.Products.FirstAsync(x => x.Id == 6);
+    //var p2 = await _context.Products.SingleAsync(x => x.Id == 5);
+    //var product = _context.Products.Find(4);
 
-    _context.SaveChanges();
+    //Console.WriteLine($"{product.Name}-{p2.Name}-{p3.Name}");
 
-
+    var p=_context.Products.Where(x => x.Stock>20).ToList();
+    p.ForEach(p =>
+    {
+        Console.WriteLine(p.Name);
+    });
     #region
 
 
