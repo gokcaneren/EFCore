@@ -19,6 +19,8 @@ using (var _context=new AppDbContext())
     {
         Console.WriteLine(p.Name);
     });
+
+
     #region
 
 
