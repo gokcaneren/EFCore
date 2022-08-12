@@ -33,7 +33,9 @@ using (var _context=new AppDbContext())
     //    Console.WriteLine(item.Id);
     //}
 
-    var urun = await _context.Products.FirstOrDefaultAsync(p => p.Id >5);
+    //var urun = await _context.Products.FirstOrDefaultAsync(p => p.Id >5);
+
+    var urun = await _context.Products.FindAsync(8);
 
     Console.WriteLine(urun.Name);
     #region
@@ -98,6 +100,6 @@ using (var _context=new AppDbContext())
     //});
 
     #endregion
-
+     
 }
 
