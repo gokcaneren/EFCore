@@ -14,13 +14,28 @@ using (var _context=new AppDbContext())
 
     //Console.WriteLine($"{product.Name}-{p2.Name}-{p3.Name}");
 
-    var p=_context.Products.Where(x => x.Stock>20).ToList();
-    p.ForEach(p =>
-    {
-        Console.WriteLine(p.Name);
-    });
+    //var p=_context.Products.Where(x => x.Stock>20).ToList();
+    //p.ForEach(p =>
+    //{
+    //    Console.WriteLine(p.Name);
+    //});
 
 
+    //var urunler = from urun in _context.Products
+    //              where urun.Id>5
+    //              select urun;
+
+
+    //var urunler = await _context.Products.Where(u=>u.Id>3).ToListAsync();
+
+    //foreach (var item in urunler)
+    //{
+    //    Console.WriteLine(item.Id);
+    //}
+
+    var urun = await _context.Products.FirstOrDefaultAsync(p => p.Id >5);
+
+    Console.WriteLine(urun.Name);
     #region
 
 
