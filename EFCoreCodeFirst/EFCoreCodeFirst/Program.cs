@@ -35,9 +35,21 @@ using (var _context=new AppDbContext())
 
     //var urun = await _context.Products.FirstOrDefaultAsync(p => p.Id >5);
 
-    var urun = await _context.Products.FindAsync(8);
+    //var urun = await _context.Products.FindAsync(8);
 
-    Console.WriteLine(urun.Name);
+    //Console.WriteLine(urun.Name);
+
+    //var urun=await _context.Products.ToDictionaryAsync(u=>u.Name, u=>u.Price);
+
+    var a = await _context.Categories.Include(p => p.Products).SelectMany(p => p.Products, (p, c) => new
+    {
+        p.Name,
+        c.Price,
+        c.Stock
+    }).ToListAsync();
+    
+
+    Console.WriteLine();
     #region
 
 
